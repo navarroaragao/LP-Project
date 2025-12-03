@@ -1,24 +1,14 @@
 # lp24 - projecto
 
-Este repositório git pertence a ist1113402 e destina-se ao projecto de lp24.
+Este repositório git pertence a Manuel Soares e destina-se ao projecto de lp24.
 
-O enunciado do projecto está disponível em [enunciado_projecto.pdf](enunciado_projecto.pdf).
-
-Os estudantes devem submeter aqui a sua solução para o projecto que será avaliada automaticamente.
-
-O resultado da avaliação do projecto ficará disponível no [README](https://gitlab.rnl.tecnico.ulisboa.pt/lp/lp24/feedback/projecto/ist1113402/-/tree/master/README.md) do repositório de feedback após cada submissão de código.
-
-O desempenho global dos estudantes no projecto pode ser consultado no [_dashboard_](https://gitlab.rnl.tecnico.ulisboa.pt/lp/lp24/lp24/-/tree/master/dashboard/projects/projecto.md) do projecto, presente no repositório global de lp24.
+O enunciado do projecto está disponível em enunciado do projeto.
 
 - **Notas importantes:**
 
-    - [+Os estudantes têm de esperar 15 minuto(s) entre submissões+]. Desta forma, têm de esperar 15 minuto(s) para resubmeter um novo programa. Caso contrário a submissão do estudante não será avaliada.
+    - O projecto deve ser desenvolvido usando o SWI - Prolog.
 
-    - [-Os estudantes não podem alterar o ficheiro .gitlab-ci.yml presente no repositorio. A alteração deste ficheiro fará com que o estudante fique sem acesso a este repositório, não existirão excepções. Desta forma o estudante será avaliado com 0 valores nesta componente de avaliação-].
-
-    - O projecto deve ser desenvolvido usando o [SWI Prolog](https://www.swi-prolog.org).
-
-- O projecto pode ser testado localmente correndo os testes públicos, correndo:
+- O projecto pode ser testado localmente correndo os testes públicos, correndo o comando:
 
     ```
     swipl -l projecto.pl -g run_tests -t halt testes_publicos.plt
